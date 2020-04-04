@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17643" started-at="2019-09-25T16:12:57Z" finished-at="2019-09-25T16:13:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7200" started-at="2019-09-25T16:12:57Z" finished-at="2019-09-25T16:13:04Z">
+      <class name="LoginTestCase.BothIncorrect">
+        <test-method status="PASS" signature="bothwrong(java.lang.String, java.lang.String)[pri:0, instance:LoginTestCase.BothIncorrect@659499f1]" name="bothwrong" duration-ms="7164" started-at="2019-09-25T16:12:57Z" finished-at="2019-09-25T16:13:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bothwrong -->
+      </class> <!-- LoginTestCase.BothIncorrect -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="10387" started-at="2019-09-25T16:13:04Z" finished-at="2019-09-25T16:13:15Z">
+      <class name="LoginTestCase.WrongUserName">
+        <test-method status="PASS" signature="incorrectusername(java.lang.String, java.lang.String)[pri:0, instance:LoginTestCase.WrongUserName@1ed6388a]" name="incorrectusername" duration-ms="10379" started-at="2019-09-25T16:13:04Z" finished-at="2019-09-25T16:13:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminu123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectusername -->
+      </class> <!-- LoginTestCase.WrongUserName -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
